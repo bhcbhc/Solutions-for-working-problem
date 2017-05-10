@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="src/styles/app.css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+    <div class="file-container">
+        <form style="float: left" id="uploadForm" enctype="multipart/form-data">
+            <input type="text" class="filename" readonly/>
+            <input type="button" class="browse" value="浏览">
+            <input type="file" name="file" multiple="multiple"/>
+        </form>
+    </div>
+    <div style="float: left;margin-left: 10px;margin-top: 10px">
+        <button class="upload" type="button" id="beginLoad">上传</button>
+    </div>
+</div>
+<script src="../libs/jquery-3.2.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

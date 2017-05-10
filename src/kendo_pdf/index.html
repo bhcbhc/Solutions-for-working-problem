@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kendo导出PDF</title>
+    <link href="src/app.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="./src/libs/kendo/styles/kendo.common.min.css">
+</head>
+<body>
+<div>
+    <button id="export-Btn">导出</button>
+</div>
+<div id="pdf-export">
+    <table class="full-height full-width">
+        <thead>
+        <tr>
+            <td>中文</td>
+            <td>English</td>
+            <td>温度(&#176;C)</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>中</td>
+            <td>英</td>
+            <td>法语</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="../libs/jquery-3.2.0.min.js"></script>
+<script src="src/libs/kendo/js/kendo.all.min.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
