@@ -16,4 +16,7 @@
 #### 2017-05-10
 from表单制作文件上传修改input[type="file"]默认样式
 
-解决方案：设置input opacity:0,并且添加一个覆盖层```<input type="text" class="filename" readonly/>```
+![默认样式](src/file_upload/src/image/origin.png)
+
+解决方案：设置input opacity:0,并且添加一个覆盖层```<input type="text" class="filename" readonly/>``
+`![](src/file_upload/src/image/fileUpload.png)
