@@ -18,4 +18,4 @@
 
 解决方案：设置input opacity:0,并且添加一个覆盖层```<input type="text" class="filename" readonly/>```
 
-`![](src/file_upload/src/image/fileUpload.png)
+![](src/file_upload/src/image/fileUpload.png)
