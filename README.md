@@ -48,5 +48,5 @@
        
     + 版本
        ####
-       ![](src/file_upload/echarts/version.png)
+       ![](src/echarts/version.png)
     
