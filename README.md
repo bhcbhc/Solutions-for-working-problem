@@ -19,3 +19,32 @@
     解决方案：设置input opacity:0,并且添加一个覆盖层```<input type="text" class="filename" readonly/>```
 
 ![](src/file_upload/src/image/fileUpload.png)
+
+#### 2018-05-02
+2. 1 **vue使用echart解决方案**
+    + **整体分析:** 
+    
+       1 **需求**:
+       
+       若干柱状图、折线图、饼状图、堆积柱状图、自定义图表。实时更新数据，loading，noData效果。图表自适应窗口
+       
+       2 **思路**
+       
+       使用vuex 管理chart实例，state存储charts， 根据id获取实例， mutations add remove chart, 可以在组件存在期间操作echart 实例
+    
+    + 初始化echarts对象 操作echarts 对象
+    
+       ![](src/echarts/chart_init.png)
+       #### state
+       ![](src/echarts/state.png)
+       #### getters
+       ![](src/echarts/getters.png)
+       #### mutations
+       ![](src/echarts/mutations.png)
+       
+    + 事件监听，调整echart 大小
+       ![](src/echarts/resize.png)
+       
+    + 版本
+    ![](src/file_upload/echarts/version.png)
+    
