@@ -43,8 +43,10 @@
        ![](src/echarts/mutations.png)
        
     + 事件监听，调整echart 大小
+       #### 
        ![](src/echarts/resize.png)
        
     + 版本
-    ![](src/file_upload/echarts/version.png)
+       ####
+       ![](src/file_upload/echarts/version.png)
     
